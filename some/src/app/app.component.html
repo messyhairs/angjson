@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div *ngFor='let language of data?.languages'>
+    {{ getKey(language) }} --> 
+    {{ getValue(language) }}
+</div>
